@@ -329,13 +329,5 @@ $(this).dequeue();
 $("div").animate({left:'10px', top:'30px'}, 700);
 });
 
-		var myArray = ["раз", "два", "три", "четыре", "пять"];
-    $.each(myArray, function(index, value){
-        console.log("INDEX: " + index + " VALUE: " + value);
-    });
-
-		$('a').each(function (index, value) {
-			console.log(index+':'+ $(this).text(), '(href=' + $(this).attr('href') + ')');
-		});
 
 });
